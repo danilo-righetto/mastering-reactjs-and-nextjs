@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Posts from './Posts';
+// import Posts from './Posts';
+import './PostsApi.css';
+import PostsApi from './PostsApi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Posts />
-    <App />
+    {/* <Posts /> */}
+    <PostsApi />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
